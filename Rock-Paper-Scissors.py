@@ -6,9 +6,9 @@ print('Welcome to'. center(columns))
 print('Stone Paper Scissors Game'.upper().center(columns))
 print('''
 RULES:-
-   Stone wins over Scissors
+   Rock wins over Scissors
    Scissors win over Paper
-   Paper wins over Stone
+   Paper wins over Rock
   ''')
 x = True 
 try:
@@ -32,7 +32,7 @@ for i in range(0,t):
 	c=0
 	if u in 'ABC':
 		if a==1:
-			comp='Stone'
+			comp='Rock'
 			if u=='B':
 				countp+=1
 				p+=1
